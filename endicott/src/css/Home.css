@@ -1,0 +1,54 @@
+.carousel{
+    /* width: 100vw;*/
+    height: 100vh; 
+    
+   
+}
+
+#holdme{
+    /* background-color: white; */
+    height: 3500px;
+    /* background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%, rgba(200,200,200,.25) 3%, rgba(200,200,200,.4) 5%, rgba(200,200,200,.6) 10%,rgba(200,200,200,1) 15%, rgb(200,200,200) 100%); */
+
+}
+#slick{
+    margin-top: 100vh;
+    
+}
+#homeCarousel{
+    height:100vh;
+    
+}
+@media screen and (max-width: 2000px) {
+    .imgSize{
+        height:100%;
+       width:auto;
+       object-fit: cover;
+    }
+}
+@media screen and (min-width: 2000px) {
+    .imgSize{
+        height:auto;
+        
+        width:100%;
+        object-fit: cover;
+    }
+}
+.carousel-caption{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    left:0;   
+   bottom: 0px; 
+    
+}
+
+.imgSize{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.imgHold{   
+    height: 100vh;
+}
+.carousel-indicators{
+    top:90vh;
+}
